@@ -1,0 +1,13 @@
+note = float(input("Notunuzu Giriniz:"))
+if note>=90:
+    print("AA Aldınız")
+elif note>=80:
+    print("BA Aldınız")
+elif note>=70:
+    print("BB Aldınız")
+elif note>=60:
+    print("BC Aldınız")
+elif note>=50:
+    print("CC Aldınız")
+else:
+    print("Seneye İnsallah")
