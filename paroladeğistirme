@@ -1,0 +1,25 @@
+#6655321 OPAi
+defkullanici ="yeniyazilimcibebe"
+defparola="1234"
+
+while (True):
+    kullanici=input("kullanici Adı:")
+    parola=input("parola:")
+    if ((kullanici ==defkullanici)and(parola==defparola)):
+        print("Hosgeldiniz",kullanici)
+        break
+    elif((kullanici!=defkullanici)and(parola==defparola)):
+        print("Kulanıcı Adınızı Yanlış Girdiniz")
+    elif((kullanici==defkullanici)and(parola!=defparola)):
+        print("Şifrenizi mi unuttunuz?")
+        print("Şifrenizi Değistirmek ister misiniz?(E/H)")
+        cevap=input()
+        if (cevap=="E"):
+
+
+            yeniparola=input("Yeni Parola:")
+            print("Lütfen Bekleyin")
+            defparola=yeniparola
+            print("Şifre Başarıyla Değistirildi")
+    else:
+        print("Tekrar Deneyiniz")        
